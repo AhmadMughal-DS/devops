@@ -21,7 +21,7 @@ async def home(request: Request):  # Request ko argument me lena zaroori hai
 
 @app.get("/api/message", response_class=JSONResponse)
 async def message():
-    return {"message": "Hello from FastAPI"}
+    return {"message": "Hello from FastAPI ahmad"}
 
 
 if __name__ == "__main__":
